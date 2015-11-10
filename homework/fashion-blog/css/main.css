@@ -1,0 +1,47 @@
+h1 {
+	color: red;
+	font-family: lato;
+}
+.titles{
+
+}
+li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px 10px;
+	color: gray;
+	text-decoration: underline;
+}
+.dates {
+	color: gray;
+}
+a {
+	color: #DD0000;
+	font-weight: bold;
+	float: right;
+}
+a:hover {
+	color:#aa0000; 
+}
+div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	padding: 54px;
+	font-family: lato;
+}
+img {
+	width: 760px;
+}
+.listfooter {
+	color: #dddddd;
+}
+.listfooter:hover{
+	color: black;
+}
+.footer{
+	color: #bbbbbb;
+}
+.line {
+	border-bottom: 1.5px solid;
+}
