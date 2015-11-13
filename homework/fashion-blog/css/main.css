@@ -2,6 +2,7 @@ h1 {
 	color: red;
 	font-family: lato;
 }
+/*cruft can remove*/
 .titles{
 
 }
@@ -21,6 +22,7 @@ a {
 	float: right;
 }
 a:hover {
+	/*space after colon*/
 	color:#aa0000; 
 }
 div {
@@ -43,5 +45,6 @@ img {
 	color: #bbbbbb;
 }
 .line {
+	/*you can do half pixels in css but will round up or down on display*/
 	border-bottom: 1.5px solid;
 }
