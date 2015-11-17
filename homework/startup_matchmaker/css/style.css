@@ -19,9 +19,9 @@ header {
 }
 .tagline {
 	text-align: center;
-	background-color: gray;
+	background-color: #C6C6C6;;
 	font-family: "Merriweather", serif;
-	font-size: 
+	margin: 0px;
 }
 nav a {
 	text-decoration: none;
@@ -31,12 +31,38 @@ nav a {
 }
 
 main {
-	background: url(images/coworking.jpg);
-	height: 200px;
+	background-image: url('images/coworking.jpg');
+	height: 600px;
 }
 aside {
 	float: right;
-	height: 180px;
+	height: 300px;
 	margin-right: 50px;
-	width: 300px;
+	width: 500px;
+	background-color: #C6C6C6;   
+	opacity: .5;
+	padding-top: 30px;
+}
+
+.articlewrapper {
+	float: left;
+	width: 400px;
+	padding: 0 20px;
+}
+.button {
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  background: #778085;
+  text-decoration: none;
+}
+.buttonaside {
+  font-size: 20px;
+  padding: 10px;
+  background: yellow;
+  text-decoration: none;
+  border-radius: 25px;
+}
+.clear {
+	clear: both;
 }
