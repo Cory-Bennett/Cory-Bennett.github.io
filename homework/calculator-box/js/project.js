@@ -14,5 +14,34 @@ $(document).ready(function () {
 	function addTen (){
 	total += 10;
 	$('#out').text(total);
-}
+	}
+	function addTwenty (){
+		total += 20;
+		$('#out').text(total);
+	}
+	function addThirty (){
+		total += 30;
+		$('#out').text(total);
+	}
+	function subTen (){
+	total -= 10;
+	$('#out').text(total);
+	}
+	function subTwenty (){
+		total -= 20;
+		$('#out').text(total);
+	}
+	function subThirty (){
+		total -= 30;
+		$('#out').text(total);
+	}
+	function changeRed (){
+		$('#out').style.backgroundColor = '#FF0000';
+	}
+	function changeBlue (){
+		$('#out').style.backgroundColor ='#0000FF';
+	}
+	function changeBlue (){
+		$('#out').style.backgroundColor ='#000000';
+	}
 })
