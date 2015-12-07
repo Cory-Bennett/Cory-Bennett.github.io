@@ -1,0 +1,48 @@
+.panels {
+    border-color: #000;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    margin: 10px 0;
+}
+header {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-color: #000;
+    border-style: solid;
+}
+#img{
+    width: 500px;
+}
+#buttonContainer {
+    width: 200px;
+    float: right;
+}
+button {
+    display: inline;
+    margin: 0px auto;
+    background-color: #007b77;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #2f6627;
+}
+section {
+    width: 400px;
+    float: left;
+}
+aside {
+    width: 580px;
+    float: left;
+    padding: 0 5px;
+}
+.clear {
+    clear: both;
+}
