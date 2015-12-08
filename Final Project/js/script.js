@@ -15,7 +15,7 @@ $(document).ready(function() {
     })
     $('#candidateSection').click(function() {
         $('#candidateDiv').append("<div>Candidate</div>").draggable();
-    })
+    })  
     // $(function() {
     //     $("#draggable").draggable();
     // });
