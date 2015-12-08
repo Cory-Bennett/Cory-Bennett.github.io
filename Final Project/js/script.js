@@ -15,7 +15,12 @@ $(document).ready(function() {
     })
     $('#candidateSection').click(function() {
         $('#candidateDiv').append("<div>Candidate</div>").draggable();
-    })  
+    })
+        $('#candidateSection').draggable();
+    $('#candidateSection').mousedown(function() {
+        var $text_box = $(this).find('p');
+        $text_box.fadeOut('slow')
+    });  
     // $(function() {
     //     $("#draggable").draggable();
     // });
