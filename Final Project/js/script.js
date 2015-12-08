@@ -14,9 +14,9 @@ $(document).ready(function() {
             '#panelistDiv');
     })
     $('#candidateSection').click(function() {
-        $('#candidateDiv').append("<div>Candidate</div>")
+        $('#candidateDiv').append("<div>Candidate</div>").draggable();
     })
-    $(function() {
-        $("#draggable").draggable();
-    });
+    // $(function() {
+    //     $("#draggable").draggable();
+    // });
 })
