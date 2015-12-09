@@ -10,18 +10,31 @@ $(document).ready(function() {
         $('#candidateDiv').show();
     })
     $('#panelistSection').click(function() {
-        $('<div id="draggable">Panelist</div>').appendTo(
-            '#panelistDiv');
+<<<<<<< HEAD
+        $('#panelistDiv').append("<div class='draggable' style=height:50px;width:100px;border:1px solid black;>Panelist</div>")
+        $('.draggable').draggable();
     })
     $('#candidateSection').click(function() {
-        $('#candidateDiv').append("<div>Candidate</div>").draggable();
+        $('#candidateDiv').append("<div class='draggable' style='height:50px;width:100px;border:1px solid black;'>Candidate</div>");
+        $('.draggable').draggable();
     })
-        $('#candidateSection').draggable();
-    $('#candidateSection').mousedown(function() {
+        // $('.draggable').draggable();
+    /*$('.draggable').mousedown(function() {
         var $text_box = $(this).find('p');
         $text_box.fadeOut('slow')
-    });  
+    });*/  
     // $(function() {
     //     $("#draggable").draggable();
     // });
+=======
+        $('<div class="draggable">Panelist</div>').appendTo(
+            '#panelistDiv');
+    })
+    $('#candidateSection').click(function() {
+        $('#candidateDiv').append("<div class='draggable'>Candidate</div>");
+    })  
+    $(function() {
+        $(".draggable").draggable();
+    });
+>>>>>>> origin/master
 })
