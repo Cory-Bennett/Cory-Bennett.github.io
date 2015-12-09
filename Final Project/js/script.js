@@ -10,7 +10,6 @@ $(document).ready(function() {
         $('#candidateDiv').show();
     })
     $('#panelistSection').click(function() {
-<<<<<<< HEAD
         $('#panelistDiv').append("<div class='draggable' style=height:50px;width:100px;border:1px solid black;>Panelist</div>")
         $('.draggable').draggable();
     })
@@ -26,15 +25,3 @@ $(document).ready(function() {
     // $(function() {
     //     $("#draggable").draggable();
     // });
-=======
-        $('<div class="draggable">Panelist</div>').appendTo(
-            '#panelistDiv');
-    })
-    $('#candidateSection').click(function() {
-        $('#candidateDiv').append("<div class='draggable'>Candidate</div>");
-    })  
-    $(function() {
-        $(".draggable").draggable();
-    });
->>>>>>> origin/master
-})
