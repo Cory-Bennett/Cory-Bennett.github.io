@@ -10,13 +10,13 @@ $(document).ready(function() {
         $('#candidateDiv').show();
     })
     $('#panelistSection').click(function() {
-        $('<div id="draggable">Panelist</div>').appendTo(
+        $('<div class="draggable">Panelist</div>').appendTo(
             '#panelistDiv');
     })
     $('#candidateSection').click(function() {
-        $('#candidateDiv').append("<div>Candidate</div>").draggable();
+        $('#candidateDiv').append("<div class='draggable'>Candidate</div>");
     })  
-    // $(function() {
-    //     $("#draggable").draggable();
-    // });
+    $(function() {
+        $(".draggable").draggable();
+    });
 })
