@@ -1,1 +1,52 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suduko</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div id="img"></div>
+        <div id="buttonConatiner">
+            <button class="memberSelector" id="panelist">Panelist</button>
+            <button class="memberSelector" id="candidate">Candidates</button>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <section>
+        <div class="panels" id="draggable">
+            <h4>Panel A</h4>
+        </div>
+        <div class="panels" id="panelB">
+            <h4>Panel B</h4>
+        </div>
+        <div class="panels" id="panelC">
+            <h4>Panel C</h4>
+        </div>
+        <div class="panels" id="panelD">
+            <h4>Panel D</h4>
+        </div>
+        <div class="panels" id="panelE">
+            <h4>Panel E</h4>
+        </div>
+        <div class="panels" id="panelF">
+            <h4>Panel F</h4>
+        </div>
+    </section>
+    <aside id="panelistDiv">
+        <button id="panelistSection">New Panelist</button>
+    </aside>
+    <aside id="candidateDiv">
+        <button id="candidateSection">New Candidates</button>
+    </aside>
+    <div class="clear"></div>
+    <footer>
+        <button id="save">Save</button>
+    </footer> 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> 
+    <script src="js/script.js" type="text/javascript">
+    </script>
+</body>
+</html>
