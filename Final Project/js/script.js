@@ -17,11 +17,3 @@ $(document).ready(function() {
         $('#candidateDiv').append("<div class='draggable' style='height:50px;width:100px;border:1px solid black;'>Candidate</div>");
         $('.draggable').draggable();
     })
-        // $('.draggable').draggable();
-    /*$('.draggable').mousedown(function() {
-        var $text_box = $(this).find('p');
-        $text_box.fadeOut('slow')
-    });*/  
-    // $(function() {
-    //     $("#draggable").draggable();
-    // });
