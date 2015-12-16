@@ -7,7 +7,7 @@
   <script>
 jsforce.browser.init({
   clientId: '3MVG9KI2HHAq33RwjKIHlvM0rlEcHeN3BZ3hIRJURxgi6qvVu90OSDbjIUQK5KBnmPWMnegMLs0RjK8Z67ozr',
-  redirectUri: 'https://.salesforce.com/services/oauth2/token'
+  redirectUri: 'https://cory-bennett.github.io/final'
 });
 jsforce.browser.on('connect', function(conn) {
   conn.query('SELECT Id, Name FROM Account', function(err, res) {
