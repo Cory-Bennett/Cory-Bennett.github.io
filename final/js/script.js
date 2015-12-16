@@ -24,7 +24,7 @@ $(document).ready(function() {
     jsforce.browser.init({
         // console.log('jsforce init');
         clientId: '3MVG9KI2HHAq33RwjKIHlvM0rlEcHeN3BZ3hIRJURxgi6qvVu90OSDbjIUQK5KBnmPWMnegMLs0RjK8Z67ozr',
-        redirectUri: 'http://cory-bennett.github.io/final/'
+        redirectUri: 'http://cory-bennett.github.io/final'
     });
     jsforce.browser.on('connect', function(conn) {
         // console.log('jsforce connect')
