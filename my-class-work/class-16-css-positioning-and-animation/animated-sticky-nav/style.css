@@ -1,0 +1,13 @@
+header{
+	position: fixed;
+	background-color: blue;
+	width: 100%;
+	font-size: 87px;
+	color: white;
+	transition: font-size 1.5s, background-color 3.5s ease;
+
+}
+header.sticky {
+	background-color: red;
+	font-size: 24px;
+}
