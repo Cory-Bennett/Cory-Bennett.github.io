@@ -25,10 +25,11 @@ app.get('/', function(req, res){
       var names = result.records.map(function(item){
         return item.Name;
       });
-      // names.each(function(item) {
-      //   $(body).append('<div>' + item + '</div>')
-      // });
-      res.send(names);
+        res.sendFile(path.join(__dirname+'/index.html'));
+
+        // res.send('<script>var dataString =  ' + JSON.stringify(names) +'</script>')
+
+      // res.send(names);
     });
 
   });
