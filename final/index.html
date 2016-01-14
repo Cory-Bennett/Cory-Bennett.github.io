@@ -3,25 +3,25 @@
 <head>
     <title>Suduko</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsforce/1.5.0/jsforce.min.js"></script>
-  <script>
-jsforce.browser.init({
-  clientId: '3MVG9KI2HHAq33RwjKIHlvM0rlEcHeN3BZ3hIRJURxgi6qvVu90OSDbjIUQK5KBnmPWMnegMLs0RjK8Z67ozr',
-  redirectUri: 'https://cory-bennett.github.io/final'
-});
-jsforce.browser.on('connect', function(conn) {
-  conn.query('SELECT Id, Name FROM Account', function(err, res) {
-    if (err) { return console.error(err); }
-    console.log(res);
-  });
-});
-  </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+//   <script>
+// jsforce.browser.init({
+//   clientId: '3MVG9KI2HHAq33RwjKIHlvM0rlEcHeN3BZ3hIRJURxgi6qvVu90OSDbjIUQK5KBnmPWMnegMLs0RjK8Z67ozr',
+//   redirectUri: 'https://cory-bennett.github.io/final'
+// });
+// jsforce.browser.on('connect', function(conn) {
+//   conn.query('SELECT Id, Name FROM Account', function(err, res) {
+//     if (err) { return console.error(err); }
+//     console.log(res);
+//   });
+// });
+//   </script>
 </head>
 <body>
     <div class="container">
      <button class="loginButton" onclick="javascript:jsforce.browser.login();">Login</button>
      <div class="clear"></div>
-    <header>
+    <header class="col-md-6">
         <div id="img"></div>
         <div id="buttonConatiner">
             <button class="memberSelector" id="panelist">Panelist</button>
