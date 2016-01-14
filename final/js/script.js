@@ -6,6 +6,7 @@ $(document).ready(function() {
         $('#panelistChild').show();
         $('#candidateDiv').hide();
         $('#candidateChild').hide();
+
     })
     $("#candidate").click(function() {
         $('#panelistDiv').hide();
@@ -17,15 +18,30 @@ $(document).ready(function() {
         $('#panelistChild').append(
             "<div class='draggable' style='height:50px;width:100px;border:1px solid black;'>Panelist</div>"
         )
-        $('.draggable').draggable({
-        });
+        $('.draggable').draggable();
+        $( '.droppable').droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            // .html( "Dropped!" );
+      }
+    });
     })
     $('#candidateSection').click(function() {
         $('#candidateChild').append(
             "<div class='draggable' style='height:50px;width:100px;border:1px solid black;'>Candidate</div>"
         );
-        $('.draggable').draggable({
-        });
+        $('.draggable').draggable();
+        $('.droppable').droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            // .html( "Dropped!" );
+      }
+    });
+
     })
     // $('#candidateSection div').click(function(){
         // $(this).remove(); 
