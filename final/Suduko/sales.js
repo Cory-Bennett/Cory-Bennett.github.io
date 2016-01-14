@@ -18,7 +18,7 @@ app.get('/', function(req, res){
     // logged in user property
     console.log("User ID: " + userInfo.id);
     console.log("Org ID: " + userInfo.organizationId);
-    conn.query('SELECT Owner FROM Contact', function(err, result){
+    conn.query('SELECT Name FROM Account', function(err, result){
       var names = result.records.map(function(item){
         return item.Name;
       });
