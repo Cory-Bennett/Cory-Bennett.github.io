@@ -53,8 +53,8 @@ button:active {
     top:1px;
 }
 section {
-    /*width: 400px;*/
-    /*float: left;*/
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
 }
 aside {
     width: 580px;
